@@ -1,0 +1,68 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}%Para Tildes y ñ%
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{siunitx}
+\usepackage{adjustbox}
+%\usepackage{minted}
+\usepackage[american]{circuitikz}
+\usepackage{tikz}
+\usepackage{graphicx} 
+\usepackage{pdfpages} %para importar paginas de un pdf 
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage[bookmarks = true, colorlinks=true, linkcolor = black, citecolor = green, menucolor = black, urlcolor = black]{hyperref} 
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} 
+\usepackage{multirow}
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}		% Cambiar nombre a lista de tablas   
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}					% Cambiar nombre a tablas
+\usepackage{float}		% Para ubicar las tablas y figuras justo después del texto
+\usepackage{pdfpages}
+\usepackage{enumerate}%listas y viñetas
+\author{Estudiantes:\\ Kevin Campos Campos\\ Josué Salmerón Córdoba  \\{\small Grupo 1}\\ Profesor:  Marco Villalta  \vspace*{3.0in}}
+\title{Universidad de Costa Rica\\{\small Facultad de Ingeniería\\Escuela de Ingeniería Eléctrica\\IE0624 – Laboratorio 4\\III ciclo 2023\\\vspace*{0.55in}}\\ Título: STM32: GPIO, ADC, comunicaciones, Iot. \vspace*{1.35in}}
+%\date{fecha de entrega} 
+
+\begin{document} 
+
+\maketitle  
+\thispagestyle{empty}%%no numerar la portada
+\renewcommand{\thepage}{\roman{page}}
+\newpage
+\tableofcontents
+\newpage
+\listoffigures 
+\newpage
+\listoftables  
+\newpage
+%%%%%%%%%%  
+\renewcommand{\thepage}{\arabic{page}} 
+\setcounter{page}{1}
+\begin{center}
+\section{Resumen}
+\end{center}
+% AQUI VA EL RESUMEN 
+
+%\textbf{\textit{Palabras clave}} \\
+
+%palabras,clave,separadas, por,coma (solo en el reporte)
+   
+\newpage  
+
+
+%\input{1_Objetivos.tex}
+\input{2_Nota_te_rica.tex}
+
+\input{Desarrollo_Analisis.tex}
+\input{Conclusiones_recomendaciones.tex}
+
+\newpage 
+\input{6_Bibliografia.tex}
+
+ \input{Apendices.tex}
+\end{document}
+ 
+
+\end{document}

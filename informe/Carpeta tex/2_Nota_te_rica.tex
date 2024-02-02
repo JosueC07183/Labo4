@@ -1,0 +1,111 @@
+\section{Nota teórica}
+En esta sección se describen los componentes principales que se utilizaron para el desarrollo de un sismógrafo.
+\subsection*{STM32F429 Discovery kit}
+Este microcontrolador permite a los usuarios desarrollar fácilmente aplicaciones de alto desempeño. Incluye un ST-LINK/V2 embebido como una herramienta de depuración, una SRAM externa de 64-Mbit, un ST MEMS giroscopio, un USB OTG conector AB, LEDs y botones. Algunas de las características generales se resumen a continuación.
+
+\subsubsection*{Características generales}
+Las características más importantes de este mcu se mencionan a continuación:
+\begin{multicols}{2}
+ \begin{itemize}
+    \item 2.4 QVGA TFT LCD.
+    \item 64-Mbit SDRAM.
+    \item USB OTG con conector Micro-AB.
+    \item Header para LQFP144 I/Os.
+    \item Sensor de movimiento I3G4250D, Giroscopio ST MEMS de 3-ejes-
+    \item On-board ST-LINK/V2-B.
+    \item Alimentación por USB o fuente externa de \SI{3}{\volt} o \SI{5}{\volt}.
+    \item 2  push-button (Usuario y reset).
+    \item Core: ARM 32 bits Cortex-M4 con FPU (RISC).
+    \item Debug: SWD, JTAG.
+    \item Trabaja en frecuencia de \SI{180}{\mega\Hz}
+    \item 168 I/O con capacidad de interrupción.
+    \item 2MB flash, 256 KB SRAM.
+    \item Controlador LCD-TFT.
+    \item 21 interfaces de comunicaciones(I2C,USART,SPI,SAI,CAN).
+    \item Low Power.
+    \item Conectividad avanzada USB 2.0.
+    \item Intefaz de camara.
+    \item 2x12bit convertidor D/A.
+    \item True RNG.
+    \item CRC.
+    \item 6 LEDS: LD1 (USB Comms), LD2(3.3V PowerOn, 2 LEDS de ususario (LD3 y LD4), 2 LEDS USB OTG (LD5 y LD6).
+    \item Controladores DMA.
+    \item 17 timers: 12 timers de 16bit, 2 de 32bit de hasta 180MHz, c/u con 4IC/OC/PWM.
+\end{itemize}   
+\end{multicols}
+
+\subsubsection*{Diagrama de bloques}
+En la figura \ref{fig1} se muestra el diagrama de bloques del STM32F429.
+\begin{figure}[H]
+\centering
+\includegraphics[width=.55\linewidth]{Imagenes/1.png}
+ \caption{Diagrama de bloques del STM32F429 . Tomado de \cite{web}.}
+ \label{fig1}
+\end{figure}
+\subsubsection*{Diagrama de pines}
+Luego, el diagrama de pines de este mcu se presenta en la figura \ref{fig2}
+\begin{figure}[H]
+\centering
+\includegraphics[width=.55\linewidth]{Imagenes/2.png}
+ \caption{Diagrama de pines del STM32F429. Tomado de \cite{web}.}
+ \label{fig2}
+\end{figure}
+\subsubsection*{Características eléctricas}
+Las siguientes tablas resumen las características eléctricas de este microcontrolador.
+\begin{figure}[H]
+\centering
+\includegraphics[width=.55\linewidth]{Imagenes/3.png}
+ \caption{Detalles del voltaje del mcu. Tomado de \cite{web}.}
+ \label{fig3}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=.55\linewidth]{Imagenes/4.png}
+ \caption{Detalles de la corriente en el mcu. Tomado de \cite{web}.}
+ \label{fig4}
+\end{figure}
+
+
+\subsection*{Periféricos utilizados}
+\subsection*{Componentes electrónicos complementarios}
+% quiza mencionar la ayuda de la protoboard, en realidad fue como lo único.
+Es un circuito que lo compone una electrónica básica (así lo resume la tabla \ref{table_2}), solo se usó una protoboard y 3 resistencias en total, una batería de \SI{9}{\volt}, esto para realizar un divisor de tensión con el objetivo de alimentar a la placa STM32249 Discovery Kit con \SI{5}{\volt}. Así, se sabe que $v_{out} \approx \SI{5}{\volt}$
+\begin{itemize}
+\item $R_1 = \SI{20}{\kilo\ohm}$
+\item $R_2 = \SI{18}{\kilo\ohm}$
+\item $v_{in} =  \SI{9}{\volt}$
+\end{itemize}
+Aplicando el divisor de tensión se tiene que:
+\begin{equation}
+v_{out} = \SI{9}{\volt} \cdot \frac{  \SI{20}{\kilo\ohm} }{ \SI{20}{\kilo\ohm}+\SI{18}{\kilo\ohm}} \approx \SI{4.737}{\volt}
+\label{eq1}
+\end{equation}
+De la ecuación \ref{eq1}, se demuestra que con estas magnitudes es posible alimentar la placa sin sobrepasar el umbral.
+\subsection*{Lista de componentes}
+La lista de componentes fueron consultados en \cite{web2} disponibles
+\begin{table}[H]
+\caption{Lista de equipos}
+\label{table_2}
+\begin{center}
+\begin{tabular}{r|cc}
+\hline
+\textbf{Componente}&\textbf{Cantidad}&\textbf{Precio}\\
+ \hline
+STM32F429 Discovery Kit& 1 & 83\$ \\ \hline 
+Resistencias \SI{20}{\kilo\ohm}&2 & 0.4\$ \\ \hline 
+Resistencias \SI{18}{\kilo\ohm}&1 & 0.2\$ \\ \hline 
+Protoboard &1 &10\$ \\ \hline 
+Broche porta pila &1 &0.5\$ \\ \hline 
+Baterías \SI{9}{\volt} & 2& 2\$ \\ \hline 
+
+ \textbf{Total}& & 96.1\$ \\
+ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\subsection*{Diseño del circuito}
+El diagrama mostrado en la figura \ref{DF_S}, resume el funcionamiento del sismógrafo.
+\input{sch1.tex}
+\newpage
