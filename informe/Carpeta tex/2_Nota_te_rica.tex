@@ -68,6 +68,36 @@ Las siguientes tablas resumen las características eléctricas de este microcont
 
 
 \subsection*{Periféricos utilizados}
+Los registros utilizados en este laboratorio se describen a continuación:
+\begin{itemize}
+    \item WHO\_AM\_I: Registro utilizado como identificador.
+    \item CTRL\_REG1: Registro utilizado para habilitar registros de lectura de ejes.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=.7\linewidth]{Imagenes/k1.png}
+        \caption{Descripción del registro CTRL\_REG1. Tomado de \cite{l3gd20}.}
+        \label{fig5}
+    \end{figure}
+    \item CTRL\_REG4: Este registro es utilizado para la configuración del DPS y también para la configuración del modo de selección del SPI.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=.7\linewidth]{Imagenes/k2.png}
+        \caption{Descripción del registro CTRL\_REG4. Tomado de \cite{l3gd20}.}
+        \label{fig6}
+    \end{figure}
+    Para la lectura de los ejes, se utilizan los siguientes registros, ambos son registros de 8 bits. La \textbf{L} es para representar los primeros 8 bits menos significativos y la \textbf{H} para los 8 bits más significativos, ambos de la lectura del giroscopio en el eje indicado (X, Y o Z).
+    \item OUT\_X\_L y OUT\_X\_H
+    \item OUT\_Y\_L y OUT\_Y\_H
+    \item OUT\_Z\_L y OUT\_Z\_H
+    \item STATUS\_REG
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=.7\linewidth]{Imagenes/k3.png}
+        \caption{Descripción del registro STATUS\_REG. Tomado de \cite{l3gd20}.}
+        \label{fig7}
+    \end{figure}
+\end{itemize}
+
 \subsection*{Componentes electrónicos complementarios}
 % quiza mencionar la ayuda de la protoboard, en realidad fue como lo único.
 Es un circuito que lo compone una electrónica básica (así lo resume la tabla \ref{table_2}), solo se usó una protoboard y 3 resistencias en total, una batería de \SI{9}{\volt}, esto para realizar un divisor de tensión con el objetivo de alimentar a la placa STM32249 Discovery Kit con \SI{5}{\volt}. Así, se sabe que $v_{out} \approx \SI{5}{\volt}$
