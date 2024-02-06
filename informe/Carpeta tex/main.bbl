@@ -7,4 +7,18 @@ STmicroelectronics.
   Febrero 2018.
 \newblock Accedido en enero de 2024.
 
+\bibitem{l3gd20}
+STMicroelectronics.
+\newblock Mems motion sensor: three-axis digital output gyroscope.
+\newblock MicroJPM,
+  \url{https://www.st.com/resource/en/datasheet/a3g4250d.pdf}, Febrero 2012.
+\newblock Accedido en febrero de 2024.
+
+\bibitem{web2}
+MicroJPM.
+\newblock Componentes.
+\newblock MicroJPM, \url{https://www.microjpm.com/search/?x=11&y=11&text=},
+  Febrero 2024.
+\newblock Accedido en febrero de 2024.
+
 \end{thebibliography}
