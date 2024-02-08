@@ -1,0 +1,10 @@
+i) El ejemplo de miniblink, muestra un LED en parpadeo, esto se puede usar de alarma para la batería.
+ii) El ejemplo de botón sirve para inicializar la comunicación. 
+iii) El ejemplo adc-dac sirve para ver si las cosas están funcionando.
+iv) Se puede usar el ejemplo de miniblink para cuando la batería está baja.
+v) El ejemplo de la carpeta stm32f3-discovery/spi sirve para el giroscopio.
+vi) Si toma el console de spi stm32 f4, entonces debo usar USART2. Si uso el console de lcd-serial, entonces es USART1. En nuestro caso, vamos a usar el USART1.
+
+
+/////////////////////////////////////////////////////////////////////////////
+Pruebas, necesito la función adc_setup para ver la pantalla. Creo que esto tiene que ver con el ejemplo 
