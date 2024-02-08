@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.30)  6 FEB 2024 00:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.30)  7 FEB 2024 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,24 +1065,12 @@ LaTeX Info: Redefining \% on input line 1.
  [2] (./main.lof
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
-
-
-LaTeX Warning: Citation `l3gd20' on page \es@scroman {iii} undefined on input l
-ine 6.
-
-
-LaTeX Warning: Citation `l3gd20' on page \es@scroman {iii} undefined on input l
-ine 7.
-
-
-LaTeX Warning: Citation `l3gd20' on page \es@scroman {iii} undefined on input l
-ine 8.
-
 )
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [3] (./main.lot
+ [3]
+(./main.lot
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1099,18 +1087,18 @@ Underfull \hbox (badness 6016) in paragraph at lines 33--34
 []\OT1/cmr/m/n/12 17 ti-mers: 12 ti-mers de 16bit, 2
  []
 
-<Imagenes/1.png, id=93, 476.78125pt x 624.3325pt>
+<Imagenes/1.png, id=104, 476.78125pt x 624.3325pt>
 File: Imagenes/1.png Graphic file (type png)
 <use Imagenes/1.png>
 Package pdftex.def Info: Imagenes/1.png  used on input line 41.
 (pdftex.def)             Requested size: 266.03474pt x 348.38536pt.
 [2]
-<Imagenes/2.png, id=103, 471.7625pt x 454.69875pt>
+<Imagenes/2.png, id=114, 471.7625pt x 454.69875pt>
 File: Imagenes/2.png Graphic file (type png)
 <use Imagenes/2.png>
 Package pdftex.def Info: Imagenes/2.png  used on input line 49.
 (pdftex.def)             Requested size: 266.03474pt x 256.41266pt.
-<Imagenes/3.png, id=105, 694.595pt x 367.3725pt>
+<Imagenes/3.png, id=116, 694.595pt x 367.3725pt>
 File: Imagenes/3.png Graphic file (type png)
 <use Imagenes/3.png>
 Package pdftex.def Info: Imagenes/3.png  used on input line 57.
@@ -1126,30 +1114,23 @@ ame{figure.2}) has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.60 \end{figure}
                   <./Imagenes/1.png> <./Imagenes/2.png>]
-<Imagenes/4.png, id=113, 782.925pt x 393.47pt>
+<Imagenes/4.png, id=124, 782.925pt x 393.47pt>
 File: Imagenes/4.png Graphic file (type png)
 <use Imagenes/4.png>
 Package pdftex.def Info: Imagenes/4.png  used on input line 64.
 (pdftex.def)             Requested size: 266.03474pt x 133.69997pt.
-<Imagenes/k1.png, id=115, 699.61375pt x 303.1325pt>
+<Imagenes/k1.png, id=126, 699.61375pt x 303.1325pt>
 File: Imagenes/k1.png Graphic file (type png)
 <use Imagenes/k1.png>
 Package pdftex.def Info: Imagenes/k1.png  used on input line 77.
 (pdftex.def)             Requested size: 338.58632pt x 146.70456pt.
-
-
-LaTeX Warning: Citation `l3gd20' on page 4 undefined on input line 78.
-
-<Imagenes/k2.png, id=117, 693.59125pt x 244.915pt>
+<Imagenes/k2.png, id=129, 693.59125pt x 244.915pt>
 File: Imagenes/k2.png Graphic file (type png)
 <use Imagenes/k2.png>
 Package pdftex.def Info: Imagenes/k2.png  used on input line 84.
 (pdftex.def)             Requested size: 338.58632pt x 119.56093pt.
-
-LaTeX Warning: Citation `l3gd20' on page 4 undefined on input line 85.
-
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
-has been already used, duplicate ignored
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.88     P
@@ -1167,17 +1148,13 @@ s been already used, duplicate ignored
 l.88     P
           ara la lectura de los ejes, se utilizan los siguientes registros, ...
  <./Imagenes/3.png> <./Imagenes/4.png> <./Imagenes/k1.png>]
-<Imagenes/k3.png, id=125, 788.9475pt x 601.24625pt>
+<Imagenes/k3.png, id=138, 788.9475pt x 601.24625pt>
 File: Imagenes/k3.png Graphic file (type png)
 <use Imagenes/k3.png>
 Package pdftex.def Info: Imagenes/k3.png  used on input line 95.
 (pdftex.def)             Requested size: 338.58632pt x 258.02626pt.
-
-
-LaTeX Warning: Citation `l3gd20' on page 5 undefined on input line 96.
-
-[5pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) 
-has been already used, duplicate ignored
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.6})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.106 \item $
@@ -1187,90 +1164,915 @@ the same identifier (name{figure.7}) has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.106 \item $
              R_2 = \SI{1.8}{\kilo\ohm}$ <./Imagenes/k2.png> <./Imagenes/k3.png>
-]
-
-LaTeX Warning: Citation `web2' on page 6 undefined on input line 116.
-
-(./sch1.tex)
-<Imagenes/5.png, id=136, 308.15125pt x 361.35pt>
-File: Imagenes/5.png Graphic file (type png)
-<use Imagenes/5.png>
-Package pdftex.def Info: Imagenes/5.png  used on input line 144.
-(pdftex.def)             Requested size: 266.03474pt x 311.98451pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{table.1}) 
-has been already used, duplicate ignored
+] (./sch1.tex) [6pdfTeX warning (ext4): destination with the same identifier (n
+ame{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 L
-       o anterior se logró gracias los ejemplos dados de la biblioteca libo...
+l.141 C
+       abe mencionar que, los componentes externos para el sismografo fueron...
 ] [7pdfTeX warning (ext4): destination with the same identifier (name{figure.8}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.148 L
-       o anterior se logró gracias los ejemplos dados de la biblioteca libo...
-]
-<Imagenes/6.jpeg, id=155, 1606.0pt x 1204.5pt>
+l.142 \newpage
+              ]) (./Desarrollo_Analisis.tex
+<Imagenes/5.png, id=171, 308.15125pt x 361.35pt>
+File: Imagenes/5.png Graphic file (type png)
+<use Imagenes/5.png>
+Package pdftex.def Info: Imagenes/5.png  used on input line 6.
+(pdftex.def)             Requested size: 266.03474pt x 311.98451pt.
+<Imagenes/6.jpeg, id=172, 1606.0pt x 1204.5pt>
 File: Imagenes/6.jpeg Graphic file (type jpg)
 <use Imagenes/6.jpeg>
-Package pdftex.def Info: Imagenes/6.jpeg  used on input line 152.
+Package pdftex.def Info: Imagenes/6.jpeg  used on input line 14.
 (pdftex.def)             Requested size: 266.03474pt x 199.52423pt.
-<Imagenes/7.png, id=156, 1097.09875pt x 1090.0725pt>
-File: Imagenes/7.png Graphic file (type png)
-<use Imagenes/7.png>
-Package pdftex.def Info: Imagenes/7.png  used on input line 159.
-(pdftex.def)             Requested size: 266.03474pt x 264.3173pt.
  [8pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.163 A
-       demás, note que de la figura anterior se muestra un LED encendido, l...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.163 A
-       demás, note que de la figura anterior se muestra un LED encendido, l...
- <./Imagenes/5.png> <./Imagenes/6.jpeg>]
-<Imagenes/8.png, id=162, 1170.3725pt x 1099.10625pt>
+l.18 E
+      sta tensión eléctrica es la que recibirá la placa por medio del pin...
+ <./Imagenes/5.png>]
+<Imagenes/7.png, id=177, 1097.09875pt x 1090.0725pt>
+File: Imagenes/7.png Graphic file (type png)
+<use Imagenes/7.png>
+Package pdftex.def Info: Imagenes/7.png  used on input line 21.
+(pdftex.def)             Requested size: 266.03474pt x 264.3173pt.
+<Imagenes/8.png, id=178, 1170.3725pt x 1099.10625pt>
 File: Imagenes/8.png Graphic file (type png)
 <use Imagenes/8.png>
-Package pdftex.def Info: Imagenes/8.png  used on input line 166.
+Package pdftex.def Info: Imagenes/8.png  used on input line 28.
 (pdftex.def)             Requested size: 266.03474pt x 249.83742pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.172 \newpage
-              pdfTeX warning (ext4): destination with the same identifier (name
-{figure.12}) has been already used, duplicate ignored
+l.32 N
+      ote que el LED \texttt{PG14} no se enciende, lo cual esta correctament...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) h
+as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.172 \newpage
-               <./Imagenes/7.png> <./Imagenes/8.png>])
-(./Desarrollo_Analisis.tex [10]) (./Conclusiones_recomendaciones.tex) [11]
-(./6_Bibliografia.tex (./main.bbl) [12]) (./Apendices.tex) [13] (./main.aux
+l.32 N
+      ote que el LED \texttt{PG14} no se enciende, lo cual esta correctament...
+ <./Imagenes/6.jpeg> <./Imagenes/7.png>]
+<Imagenes/k4.png, id=185, 1118.9805pt x 395.076pt>
+File: Imagenes/k4.png Graphic file (type png)
+<use Imagenes/k4.png>
+Package pdftex.def Info: Imagenes/k4.png  used on input line 39.
+(pdftex.def)             Requested size: 338.58632pt x 119.5425pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+<Imagenes/k5.png, id=186, 501.072pt x 332.442pt>
+File: Imagenes/k5.png Graphic file (type png)
+<use Imagenes/k5.png>
+Package pdftex.def Info: Imagenes/k5.png  used on input line 47.
+(pdftex.def)             Requested size: 338.58632pt x 224.64229pt.
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.49 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.13}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.49 \end{figure}
+                  <./Imagenes/8.png> <./Imagenes/k4.png>]
+<Imagenes/k6.jpg, id=193, 4175.6pt x 3131.7pt>
+File: Imagenes/k6.jpg Graphic file (type jpg)
+<use Imagenes/k6.jpg>
+Package pdftex.def Info: Imagenes/k6.jpg  used on input line 54.
+(pdftex.def)             Requested size: 338.58632pt x 253.93391pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
+) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.60 \newpage
+             pdfTeX warning (ext4): destination with the same identifier (name{
+figure.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.60 \newpage
+              <./Imagenes/k5.png> <./Imagenes/k6.jpg>] [12])
+(./Conclusiones_recomendaciones.tex) [13] (./6_Bibliografia.tex (./main.bbl)
+[14]) (./Apendices.tex
+<./Documentos/stm32f429zi.pdf, id=217, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=220, page=1, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 1>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page1 used on input lin
+e 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 1>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page1 used on input lin
+e 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [15]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 1>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page1 used on input lin
+e 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 1>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page1 used on input lin
+e 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 1>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page1 used on input lin
+e 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [16 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=279, page=20, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 20>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page20 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 20>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page20 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 20>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page20 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 20>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page20 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 20>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page20 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [17 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=300, page=21, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 21>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page21 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 21>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page21 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 21>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page21 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 21>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page21 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 21>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page21 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [18 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=310, page=22, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 22>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page22 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 22>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page22 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 22>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page22 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 22>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page22 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 22>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page22 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [19 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=319, page=35, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 35>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page35 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 35>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page35 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 35>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page35 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 35>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page35 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 35>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page35 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [20 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=328, page=36, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 36>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page36 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 36>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page36 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 36>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page36 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 36>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page36 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 36>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page36 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [21 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=338, page=43, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 43>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page43 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 43>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page43 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 43>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page43 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 43>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page43 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 43>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page43 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [22 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=347, page=45, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 45>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page45 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 45>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page45 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 45>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page45 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 45>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page45 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 45>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page45 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [23 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=358, page=53, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 53>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page53 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 53>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page53 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 53>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page53 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 53>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page53 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 53>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page53 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[24 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=365, page=54, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 54>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page54 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 54>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page54 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 54>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page54 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [25 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=372, page=55, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 55>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page55 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 55>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page55 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 55>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page55 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[26 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=379, page=56, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 56>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page56 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 56>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page56 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 56>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page56 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [27 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=387, page=57, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 57>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page57 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 57>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page57 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 57>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page57 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[28 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=394, page=58, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 58>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page58 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 58>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page58 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 58>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page58 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [29 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=401, page=59, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 59>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page59 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 59>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page59 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 59>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page59 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[30 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=408, page=60, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 60>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page60 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 60>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page60 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 60>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page60 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [31 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=415, page=61, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 61>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page61 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 61>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page61 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 61>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page61 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[32 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=422, page=62, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 62>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page62 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 62>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page62 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 62>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page62 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [33 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=430, page=63, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 63>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page63 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 63>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page63 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 63>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page63 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[34 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=437, page=64, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 64>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page64 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 64>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page64 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 64>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page64 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [35 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=444, page=65, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 65>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page65 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 65>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page65 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 65>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page65 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[36 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=451, page=66, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 66>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page66 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 66>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page66 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 66>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page66 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [37 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=458, page=67, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 67>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page67 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 67>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page67 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 67>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page67 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[38 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=465, page=68, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 68>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page68 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 68>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page68 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 68>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page68 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [39 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=473, page=69, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 69>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page69 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 69>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page69 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 69>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page69 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[40 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/stm32f429zi.pdf, id=480, page=70, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 70>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page70 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 70>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page70 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 70>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page70 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [41 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=489, page=93, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 93>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page93 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 93>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page93 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 93>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page93 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 93>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page93 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 93>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page93 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[42 <./Documentos/stm32f429zi.pdf>]
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf  used on input line 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/stm32f429zi.pdf, id=507, page=94, 597.23125pt x 845.1575pt>
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 94>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page94 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 94>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page94 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 94>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page94 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 94>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page94 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/stm32f429zi.pdf Graphic file (type pdf)
+<use ./Documentos/stm32f429zi.pdf, page 94>
+Package pdftex.def Info: ./Documentos/stm32f429zi.pdf , page94 used on input li
+ne 7.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [43 <./Documentos/stm32f429zi.pdf>]
+<./Documentos/l3gd20.pdf, id=514, 597.23125pt x 845.1575pt>
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/l3gd20.pdf, id=517, page=1, 597.23125pt x 845.1575pt>
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 1>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page1 used on input line 10.
+
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 1>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page1 used on input line 10.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 1>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page1 used on input line 10.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 1>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page1 used on input line 10.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 1>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page1 used on input line 10.
+
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+
+[44 <./Documentos/l3gd20.pdf>]
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf  used on input line 10.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/l3gd20.pdf, id=560, page=15, 597.23125pt x 845.1575pt>
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 15>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page15 used on input line 10
+.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 15>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page15 used on input line 10
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 15>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page15 used on input line 10
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 15>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page15 used on input line 10
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/l3gd20.pdf Graphic file (type pdf)
+<use ./Documentos/l3gd20.pdf, page 15>
+Package pdftex.def Info: ./Documentos/l3gd20.pdf , page15 used on input line 10
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [45 <./Documentos/l3gd20.pdf>]
+<./Documentos/ILI9341.pdf, id=582, 597.23125pt x 845.1575pt>
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf  used on input line 13.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf  used on input line 13.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+<./Documentos/ILI9341.pdf, id=585, page=7, 597.23125pt x 845.1575pt>
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf, page 7>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf , page7 used on input line 13
+.
+(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf, page 7>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf , page7 used on input line 13
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf, page 7>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf , page7 used on input line 13
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf, page 7>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf , page7 used on input line 13
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+File: ./Documentos/ILI9341.pdf Graphic file (type pdf)
+<use ./Documentos/ILI9341.pdf, page 7>
+Package pdftex.def Info: ./Documentos/ILI9341.pdf , page7 used on input line 13
+.
+(pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
+ [46 <./Documentos/ILI9341.pdf>]) (./main.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7DA525D5F85B1CD59288B7EEECE73ECF;600.
  ) 
 Here is how much of TeX's memory you used:
- 42204 strings out of 478287
- 986281 string characters out of 5849289
- 1483336 words of memory out of 5000000
- 59789 multiletter control sequences out of 15000+600000
+ 42388 strings out of 478287
+ 992104 string characters out of 5849289
+ 1483393 words of memory out of 5000000
+ 59926 multiletter control sequences out of 15000+600000
  479129 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,103p,502b,848s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 99i,17n,103p,1045b,1005s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
@@ -1283,10 +2085,10 @@ cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></us
 r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on main.pdf (17 pages, 5095034 bytes).
+Output written on main.pdf (50 pages, 6962590 bytes).
 PDF statistics:
- 260 PDF objects out of 1000 (max. 8388607)
- 199 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 694 PDF objects out of 1000 (max. 8388607)
+ 444 compressed objects within 5 object streams
+ 89 named destinations out of 1000 (max. 500000)
+ 433 words of extra memory for PDF output out of 10000 (max. 10000000)
 

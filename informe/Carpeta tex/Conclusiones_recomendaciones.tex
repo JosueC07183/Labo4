@@ -1,6 +1,18 @@
 \section{Conclusiones y recomendaciones}
-Como recomendación es importante verificar de que los datos se estén enviando de acuerdo al protocolo, varias veces se tuvieron problemas de que los datos no eran compatibles y esto era porque se le estaban enviando strings o ints y se esperaban bytes. El cálculo de un tiempo adecuado para que se dé la comunicación es muy importante y fue uno de los problemas más grandes que se tuvo con este laboratorio. La lectura de los ejemplos proporcionado fue de suma importancia para poder completar el laboratorio.
+A partir de este trabajo se obtienen las siguientes conclusiones.
 \begin{itemize}
-    \item Se aprendió como implementar una comunicación entre una nube y un microcontrolador.
-    \item A pesar de que no se lograron todos los puntos estipulados por el enunciado, se considera de que se lograron los más importantes. 
+\item El uso de los ejemplos brindados por la biblioteca \texttt{libopencm3} sirvió de ayuda para realizar las funciones del sismografo, ya que se logró ver elementos en la pantalla LCD, y a partir de esto se usaron los bloques de código necesarios para mostrar un simple texto, añadirle color, posición y otros detalles, ya con esto fue un gran avance y poder implementar el giroscopio con base a las demás configuraciones de \texttt{gpio} y sensibilidad en los ejes para mostrar los valores en cada eje.
+\item Se aprendió como implementar una comunicación entre una nube y un microcontrolador.
+\item A pesar de que no se lograron todos los puntos estipulados por el enunciado, se considera de que se lograron los más importantes. 
+\item A partir de la tensión de salida en la batería (\SI{3.21}{\volt}) y haber realizado ajustes en funciones como \texttt{read\_adc\_naiive} se logró mostrar esta tensión en la pantalla y encender o apagar el LED respetando el umbral previamente dado.
 \end{itemize}
+
+Las recomendaciones de este trabajo son las siguientes:
+\begin{itemize}
+\item Verificar de que los datos se estén enviando de acuerdo al protocolo, varias veces se tuvieron problemas de que los datos no eran compatibles y esto era porque se le estaban enviando strings o ints y se esperaban bytes. El cálculo de un tiempo adecuado para que se dé la comunicación es muy importante y fue uno de los problemas más grandes que se tuvo con este laboratorio. La lectura de los ejemplos proporcionado fue de suma importancia para poder completar el laboratorio.
+\item Probar los ejemplos que vienen en la librería \texttt{libopencm3}, esto ayuda a entender la funcionalidad de los bloques de código.
+\item Realizar muchas pruebas y error con los ejemplos.
+\item Crear el proyecto en la misma carpeta donde están los ejemplos, esto para no tener ningún problema a la hora de usar el makefile.
+\item Tener mucho cuidado en las conexiones para cuidar el equipo de trabajo.
+\end{itemize}
+
