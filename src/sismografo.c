@@ -2,8 +2,11 @@
  * @file sismografo.c
  * @author Kevin Campos Castro
  * @author Josué Salmerón Córdoba
- * @brief Esta función simula el comportamiento de un sismografo por medio de la placa
- * stmf32f429 Discovery-kit.
+ * @brief En este trabajo se realiza un sismografo que funciona por medio de un giroscopio usando los 3 ejes X, Y, Z, también se usa una batería y se hace una
+ * transmisión serial de los datos por medio de una plataforma de IoT; Thingsboard. Los 3 componentes principales de la placa se resumen de la siguiente manera:
+ * 1. Al mover la placa las coordenas de los 3 ejes pasan de su estado normal, es decir, 0 a diferentes valores según el movimiento que se emplee. El nivel de la batería se mostrará conforme ésta 
+ * vaya descargándose, esto se mostrará más claro con la ayuda de un LED que se enciende y se apaga cuando se encuentra por debajo de 7V o cuando es superior a 7V respectivamente. El botón de la 
+ * transmisión serial posee el mismo comportamiento, el LED PG13 se enciende cuando hay transmisión y se mantiene en bajo cuando no la hay.
  * @version 0.1
  * @date 2024-02-02
  * 
@@ -68,13 +71,14 @@ char mensaje [40], comma[] = ",";
 
 // Declaración de funciones
 static void spi_setup(void);
-int print_decimal(int num);
-//static void usart_setup(void);
-//void input_setup(void);
-//static void adc_setup(void);
-//static uint16_t read_adc_naiive(uint8_t channel);
 GYRO mostrar_XYZ(void);
-
+/**
+ * @brief En esta función se configuran los perifericos del reloj. Los pines del GPIO, se inicializa el SPI para poder ver los movimientos en los 3 ejes. 
+ * Luego, se colocan otros bloques de código para poder observar los elementos en la pantalla LCD, también se toman en cuenta la tasa de los baudios a trabajar.
+ * Se configuran los pines de salida para los LEDs de alarma, y el modo analógico para poder conectar la batería a la placa. En resumen, es función
+ * se compone de bloques de código de los ejemplos brindados en la librería libopencm3.
+ * 
+ */
 static void spi_setup(void){
 
     // Periféricos del reloj
@@ -181,7 +185,16 @@ static uint16_t read_adc_naiive(uint8_t channel){
 	return reg16;
 }
 
-// Lee coordenadas del GYRO
+/**
+ * @brief Se hace una lectura del giroscopio que se mostrarán los 3 ejes en la pantalla LCD, donde su 
+ * valor por default serán todas las coordenadas en 0, que al mover la placa éstos valores cambian.
+ * Otro detalle importante es con respecto a la sensibilidad en cada eje, se configuró la misma para que no
+ * exista ningún desfase y tenga sentido. Dentro de esta misma función se hace un condicional que sirve de alarma
+ * para el LED que indica cuando la batería es baja o se mantiene en el umbral adecuado. El otro condicional es para
+ * saber cuando se establecenla comunicación serial.
+ * 
+ * @return GYRO 
+ */
 GYRO mostrar_XYZ(void){
 	GYRO SHOW;
 	gpio_clear(GPIOC, GPIO1);
